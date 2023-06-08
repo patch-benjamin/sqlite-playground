@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		710E13F52A315D0B0063D378 /* sqlitePlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710E13F42A315D0B0063D378 /* sqlitePlaygroundApp.swift */; };
-		710E13F72A315D0B0063D378 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710E13F62A315D0B0063D378 /* ContentView.swift */; };
+		710E13F72A315D0B0063D378 /* MainSqliteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710E13F62A315D0B0063D378 /* MainSqliteView.swift */; };
 		710E13F92A315D0C0063D378 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 710E13F82A315D0C0063D378 /* Assets.xcassets */; };
 		710E13FC2A315D0C0063D378 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 710E13FB2A315D0C0063D378 /* Preview Assets.xcassets */; };
 		710E14062A315D0C0063D378 /* sqlitePlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710E14052A315D0C0063D378 /* sqlitePlaygroundTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		710E13F12A315D0B0063D378 /* sqlitePlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sqlitePlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		710E13F42A315D0B0063D378 /* sqlitePlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sqlitePlaygroundApp.swift; sourceTree = "<group>"; };
-		710E13F62A315D0B0063D378 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		710E13F62A315D0B0063D378 /* MainSqliteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSqliteView.swift; sourceTree = "<group>"; };
 		710E13F82A315D0C0063D378 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		710E13FB2A315D0C0063D378 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		710E14012A315D0C0063D378 /* sqlitePlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sqlitePlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				710E13F42A315D0B0063D378 /* sqlitePlaygroundApp.swift */,
-				710E13F62A315D0B0063D378 /* ContentView.swift */,
+				710E13F62A315D0B0063D378 /* MainSqliteView.swift */,
 				710E13F82A315D0C0063D378 /* Assets.xcassets */,
 				710E13FA2A315D0C0063D378 /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				710E13F72A315D0B0063D378 /* ContentView.swift in Sources */,
+				710E13F72A315D0B0063D378 /* MainSqliteView.swift in Sources */,
 				710E13F52A315D0B0063D378 /* sqlitePlaygroundApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

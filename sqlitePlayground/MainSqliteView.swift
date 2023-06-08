@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  MainSqliteView.swift
 //  sqlitePlayground
 //
 //  Created by Benjamin Patch on 6/7/23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MainSqliteView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -21,6 +21,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        MainSqliteView()
     }
 }

@@ -11,7 +11,7 @@ import SwiftUI
 struct sqlitePlaygroundApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainSqliteView()
         }
     }
 }
